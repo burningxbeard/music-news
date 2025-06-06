@@ -1,0 +1,9 @@
+.header {
+    background-color: var(--rich-black);
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+}
