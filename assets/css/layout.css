@@ -7,9 +7,10 @@
 li {
     list-style-position: inside;
     list-style-type: none;
-    margin-bottom: 1.2rem;
 }
 
 .venue-img {
     max-width: 100%;
+    width: auto;
+    border-radius: .5rem;
 }
