@@ -22,8 +22,9 @@ p {
 .venue-card {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 1rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid var(--platinum);
     background-color: var(--black);
     color: var(--silver-lake-blue);
@@ -42,4 +43,6 @@ a:hover {
     text-decoration: underline;
 }
 
-img
+img {
+    border-radius: 1rem;
+}

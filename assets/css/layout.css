@@ -14,3 +14,19 @@ li {
     width: auto;
     border-radius: .5rem;
 }
+
+@media (min-width: 768px) {
+    #venue-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;  }
+    .venue-img {
+        max-width: 312px;
+    }
+
+    .venue-card {
+        max-width: 20rem;
+    }
+    
+}
