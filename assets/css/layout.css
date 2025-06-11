@@ -8,7 +8,11 @@ li {
     list-style-position: inside;
     list-style-type: none;
 }
-
+#venue-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .venue-img {
     max-width: 100%;
     width: auto;
@@ -20,7 +24,8 @@ li {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        flex-wrap: wrap;  }
+        flex-wrap: wrap;
+    }
     .venue-img {
         max-width: 312px;
     }
